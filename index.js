@@ -18,7 +18,7 @@ $(document).ready(() => {
         const novaTarefa = $('<li style = "display: none; color: black; text-decoration: black; cursor: pointer"></li>');
         $(`<p>${conteudo}</p>`).appendTo(novaTarefa);
         $(novaTarefa).appendTo('ul');
-        $('li').slideDown();
+        $('li').show(500);
         
         $(novaTarefa).click(() => {
             $(novaTarefa).css("text-decoration", "line-through");

@@ -5,7 +5,6 @@ body {
 }
 
 main {
-    border: solid 1px black;
     height: 950px;
     width: 100%;
     display: flex;
@@ -33,10 +32,6 @@ main {
     border: #c30d13;
     color: white;
     display: none;
-}
-
-.lista_de_tarefas {
-    border: solid 1px orange;
 }
 
 form {
