@@ -19,6 +19,7 @@ $(document).ready(() => {
         $(`<p>${conteudo}</p>`).appendTo(novaTarefa);
         $(novaTarefa).appendTo('ul');
         $('li').show(500);
+        $('#tarefa').val('');
         
         $(novaTarefa).click(() => {
             $(novaTarefa).css("text-decoration", "line-through");
